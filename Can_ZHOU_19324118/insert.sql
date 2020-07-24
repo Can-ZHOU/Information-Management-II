@@ -1,0 +1,115 @@
+INSERT INTO Position (Role) VALUES ('President');
+INSERT INTO Position (Role) VALUES ('Activity Officer');
+INSERT INTO Position (Role) VALUES ('Publicity Officer');
+INSERT INTO Position (Role) VALUES ('Accountant');
+INSERT INTO Position (Role) VALUES ('Member');
+
+INSERT INTO Club (Club_name) VALUES ('Squash club');
+INSERT INTO Club (Club_name) VALUES ('Basketball club');
+INSERT INTO Club (Club_name) VALUES ('Football club');
+INSERT INTO Club (Club_name) VALUES ('Tennis club');
+INSERT INTO Club (Club_name) VALUES ('Swimming club');
+
+INSERT INTO Student (Name, Email, Telephone) VALUES ('Ava', 'Ava@tcd.ie', '111111111');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('Mike', 'Mike@tcd.ie', '111111112');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('Leo', 'Leo@tcd.ie', '111111113');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('Ella', 'Ella@tcd.ie', '111111114');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('Jack', 'Jack@tcd.ie', '111111115');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('Ann', 'Ann@tcd.ie', '111111116');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('Harry', 'Harry@tcd.ie', '111111117');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('Mia', 'Mia@tcd.ie', '111111118');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('Poppy', 'Poppy@tcd.ie', '111111119');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('Lucy', 'Lucy@tcd.ie', '111111110');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('Lilly', 'Lilly@tcd.ie', '111111121');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('Max', 'Max@tcd.ie', '111111122');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('David', 'David@tcd.ie', '111111123');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('Alex', 'Alex@tcd.ie', '111111124');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('Luke', 'Luke@tcd.ie', '111111125');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('s1', 's1@tcd.ie', '111111126');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('s2', 's2@tcd.ie', '111111127');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('s3', 's3@tcd.ie', '111111128');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('s4', 's4@tcd.ie', '111111129');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('s5', 's5@tcd.ie', '111111130');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('s6', 's6@tcd.ie', '111111131');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('s7', 's7@tcd.ie', '111111132');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('s8', 's8@tcd.ie', '111111133');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('s9', 's9@tcd.ie', '111111134');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('s10', 's10@tcd.ie', '111111135');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('s11', 's11@tcd.ie', '111111136');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('s12', 's12@tcd.ie', '111111137');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('s13', 's13@tcd.ie', '111111138');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('s14', 's14@tcd.ie', '111111139');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('s15', 's15@tcd.ie', '111111140');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('s16', 's16@tcd.ie', '111111141');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('s17', 's17@tcd.ie', '111111142');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('s18', 's18@tcd.ie', '111111143');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('s19', 's19@tcd.ie', '111111144');
+INSERT INTO Student (Name, Email, Telephone) VALUES ('s20', 's20@tcd.ie', '111111145');
+
+INSERT INTO Staff (Student_ID, Club, Position) VALUES (1, 1, 1);
+INSERT INTO Staff (Student_ID, Club, Position) VALUES (2, 2, 1);
+INSERT INTO Staff (Student_ID, Club, Position) VALUES (3, 3, 1);
+INSERT INTO Staff (Student_ID, Club, Position) VALUES (4, 4, 1);
+INSERT INTO Staff (Student_ID, Club, Position) VALUES (5, 5, 1);
+INSERT INTO Staff (Student_ID, Club, Position) VALUES (6, 1, 2);
+INSERT INTO Staff (Student_ID, Club, Position) VALUES (7, 2, 2);
+INSERT INTO Staff (Student_ID, Club, Position) VALUES (8, 3, 2);
+INSERT INTO Staff (Student_ID, Club, Position) VALUES (9, 4, 2);
+INSERT INTO Staff (Student_ID, Club, Position) VALUES (10, 5, 2);
+INSERT INTO Staff (Student_ID, Club, Position) VALUES (11, 1, 3);
+INSERT INTO Staff (Student_ID, Club, Position) VALUES (12, 2, 3);
+INSERT INTO Staff (Student_ID, Club, Position) VALUES (13, 3, 3);
+INSERT INTO Staff (Student_ID, Club, Position) VALUES (14, 4, 3);
+INSERT INTO Staff (Student_ID, Club, Position) VALUES (15, 5, 3);
+INSERT INTO Staff (Student_ID, Club, Position) VALUES (16, 1, 4);
+INSERT INTO Staff (Student_ID, Club, Position) VALUES (17, 2, 4);
+INSERT INTO Staff (Student_ID, Club, Position) VALUES (18, 3, 4);
+INSERT INTO Staff (Student_ID, Club, Position) VALUES (19, 4, 4);
+INSERT INTO Staff (Student_ID, Club, Position) VALUES (20, 5, 4);
+INSERT INTO Staff (Student_ID, Club, Position) VALUES (21, 1, 5);
+INSERT INTO Staff (Student_ID, Club, Position) VALUES (22, 2, 5);
+INSERT INTO Staff (Student_ID, Club, Position) VALUES (23, 3, 5);
+INSERT INTO Staff (Student_ID, Club, Position) VALUES (24, 4, 5);
+INSERT INTO Staff (Student_ID, Club, Position) VALUES (25, 5, 5);
+
+INSERT INTO Supervisor (Name, Email, Telephone) VALUES ('Chloe', 'Chloe@tcd.ie', '211111111');
+INSERT INTO Supervisor (Name, Email, Telephone) VALUES ('Daisy', 'Daisy@tcd.ie', '211111112');
+INSERT INTO Supervisor (Name, Email, Telephone) VALUES ('Ruby', 'Ruby@tcd.ie', '211111113');
+INSERT INTO Supervisor (Name, Email, Telephone) VALUES ('Teddy', 'Teddy@tcd.ie', '211111114');
+INSERT INTO Supervisor (Name, Email, Telephone) VALUES ('Adam', 'Adam@tcd.ie', '211111115');
+
+INSERT INTO Activity (Activity_name, Hosted_club, Supervisor) VALUES ('Act_1', 1, 1);
+INSERT INTO Activity (Activity_name, Hosted_club, Supervisor) VALUES ('Act_2', 2, 2);
+INSERT INTO Activity (Activity_name, Hosted_club, Supervisor) VALUES ('Act_3', 3, 3);
+INSERT INTO Activity (Activity_name, Hosted_club, Supervisor) VALUES ('Act_4', 4, 4);
+INSERT INTO Activity (Activity_name, Hosted_club, Supervisor) VALUES ('Act_5', 5, 5);
+
+INSERT INTO Student_Activity (Student_ID, Activity_ID) VALUES (26,1);
+INSERT INTO Student_Activity (Student_ID, Activity_ID) VALUES (27,2);
+INSERT INTO Student_Activity (Student_ID, Activity_ID) VALUES (28,3);
+INSERT INTO Student_Activity (Student_ID, Activity_ID) VALUES (29,4);
+INSERT INTO Student_Activity (Student_ID, Activity_ID) VALUES (30,5);
+
+INSERT INTO Facility (Facility_name, Price) VALUES ('Fac_1', 1);
+INSERT INTO Facility (Facility_name, Price) VALUES ('Fac_2', 2);
+INSERT INTO Facility (Facility_name, Price) VALUES ('Fac_3', 3);
+INSERT INTO Facility (Facility_name, Price) VALUES ('Fac_4', 4);
+INSERT INTO Facility (Facility_name, Price) VALUES ('Fac_5', 5);
+
+INSERT INTO Venue (Venue_name, Capacity, District, Street, Building) VALUES ('Ven_1', 100, 'D2', 'S1', 'B1');
+INSERT INTO Venue (Venue_name, Capacity, District, Street, Building) VALUES ('Ven_2', 100, 'D2', 'S1', 'B2');
+INSERT INTO Venue (Venue_name, Capacity, District, Street, Building) VALUES ('Ven_3', 100, 'D2', 'S1', 'B3');
+INSERT INTO Venue (Venue_name, Capacity, District, Street, Building) VALUES ('Ven_4', 100, 'D2', 'S1', 'B4');
+INSERT INTO Venue (Venue_name, Capacity, District, Street, Building) VALUES ('Ven_5', 100, 'D2', 'S1', 'B5');
+
+INSERT INTO Activity_Facility (Activity_ID, Facility_ID, Start_date, End_date) VALUES (1, 1, '2019-12-01', '2019-12-07');
+INSERT INTO Activity_Facility (Activity_ID, Facility_ID, Start_date, End_date) VALUES (2, 2, '2019-12-01', '2019-12-07');
+INSERT INTO Activity_Facility (Activity_ID, Facility_ID, Start_date, End_date) VALUES (3, 3, '2019-12-01', '2019-12-07');
+INSERT INTO Activity_Facility (Activity_ID, Facility_ID, Start_date, End_date) VALUES (4, 4, '2019-12-01', '2019-12-07');
+INSERT INTO Activity_Facility (Activity_ID, Facility_ID, Start_date, End_date) VALUES (5, 5, '2019-12-01', '2019-12-07');
+
+INSERT INTO Activity_Venue (Activity_ID, Venue_ID, Start_date, End_date) VALUES (1, 1, '2019-12-01', '2019-12-07');
+INSERT INTO Activity_Venue (Activity_ID, Venue_ID, Start_date, End_date) VALUES (2, 2, '2019-12-01', '2019-12-07');
+INSERT INTO Activity_Venue (Activity_ID, Venue_ID, Start_date, End_date) VALUES (3, 3, '2019-12-01', '2019-12-07');
+INSERT INTO Activity_Venue (Activity_ID, Venue_ID, Start_date, End_date) VALUES (4, 4, '2019-12-01', '2019-12-07');
+INSERT INTO Activity_Venue (Activity_ID, Venue_ID, Start_date, End_date) VALUES (5, 5, '2019-12-01', '2019-12-07');
